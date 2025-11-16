@@ -37,6 +37,7 @@ header h1 {
     position: absolute;
     right: 20px;
     top: 10px;
+    transform: none;
     padding: 10px 18px;
     background-color: #1f3c88;
     color: white;
@@ -206,7 +207,8 @@ details[open] summary::after {
     }
 
     header .btn-voltar {
-        top: 10px;
+        top: 5px;
+        transform: none;
     }
 
     nav ul {
