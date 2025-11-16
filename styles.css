@@ -36,8 +36,7 @@ header h1 {
 .btn-voltar {
     position: absolute;
     right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 10px;
     padding: 10px 18px;
     background-color: #1f3c88;
     color: white;
@@ -46,6 +45,7 @@ header h1 {
     border-radius: 8px;
     transition: 0.3s;
 }
+
 
 .btn-voltar:hover {
     background-color: #162d66;
@@ -206,7 +206,7 @@ details[open] summary::after {
     }
 
     header .btn-voltar {
-        top: 35px;
+        top: 10px;
     }
 
     nav ul {
