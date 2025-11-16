@@ -146,9 +146,10 @@ footer p {
 }
 
 .footer-logos {
+    position: absolute;
     display: flex;
     gap: 15px;
-    align-items: center;
+    right: -7%;
 }
 
 .footer-logos img {
@@ -218,6 +219,7 @@ details[open] summary::after {
         flex-direction: column; /* empilha texto e logos */
         text-align: center;
         gap: 10px;
+        padding: 20px 20px;
     }
 
     footer p {
