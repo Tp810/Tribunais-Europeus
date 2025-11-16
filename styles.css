@@ -118,6 +118,7 @@ a:hover {
 }
 
 footer {
+    background: red;
     position: relative;
     text-align: center;
     background-color: #003399;
