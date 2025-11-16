@@ -67,10 +67,24 @@ nav ul li a {
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #ffd700; 
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #003399;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0055ff;
+}
 /* --- MAIN --- */
 main {
     flex: 1; /* empurra o footer para o fundo */
@@ -140,6 +154,7 @@ footer p {
 .footer-logos img {
     height: 40px;
     width: auto;
+    max-width: 45%;
 }
 
 /* --- FAQ / detalhes --- */
@@ -216,5 +231,6 @@ details[open] summary::after {
 
     .footer-logos img {
         height: 35px;
+        max-width: 80%;
     }
 }
