@@ -146,10 +146,9 @@ footer p {
 }
 
 .footer-logos {
-    position: absolute;
     display: flex;
     gap: 15px;
-    right: -7%;
+    align-items: center;
 }
 
 .footer-logos img {
