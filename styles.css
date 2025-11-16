@@ -127,22 +127,21 @@ footer {
     margin-top: 40px;
 }
 
-.logo1 {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 40px;
+@media (max-width: 700px) {
+    .logo1,
+    .logo2 {
+        position: static; /* sai do absolute */
+        display: block;
+        margin: 10px auto 0 auto; /* centraliza */
+        height: 35px; /* ajusta se necessário */
+        width: auto;
+    }
+    
+    footer p {
+        font-size: 0.85rem; /* texto menor */
+    }
 }
 
-.logo2 {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 40px;
-    width: auto;
-}
 
 @media (max-width: 700px) {
     nav ul {
@@ -152,6 +151,12 @@ footer {
 
     header h1 {
         font-size: 1.5rem;
+        padding: 0 10px; /* evita que o texto “escape” da tela */
+        text-align: center;
+    }
+
+    section h2 {
+        font-size: 1.2rem; /* reduz o tamanho dos títulos */
     }
 
     main {
