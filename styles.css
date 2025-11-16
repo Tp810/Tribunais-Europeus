@@ -118,12 +118,30 @@ a:hover {
 }
 
 footer {
+    position: relative;
     text-align: center;
     background-color: #003399;
     color: white;
     padding: 15px 0;
     font-size: 0.9rem;
     margin-top: 40px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+}
+
+.logo2 {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: auto;
 }
 
 @media (max-width: 700px) {
