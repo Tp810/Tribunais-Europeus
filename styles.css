@@ -205,6 +205,10 @@ details[open] summary::after {
         text-align: left; /* título à esquerda no mobile */
     }
 
+    header .btn-voltar {
+        top: 35px;
+    }
+
     nav ul {
         flex-direction: column;
         gap: 10px;
